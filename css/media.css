@@ -1,5 +1,9 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+.navbar-brand{
+    width: 160px;
+    font-size: 14px;
+}
 .menu ul li {
     padding: 0;
 }
@@ -13,6 +17,13 @@
         max-height: 220px;
     margin-top: 0;
     padding: 56px 0 0 0;
+}
+.main-1{
+    display: none;
+}
+/* service banner */
+.services-banner{
+    margin-top: 100px;
 }
 .navbar-light .navbar-toggler{
     border: 1px solid #fff;
@@ -28,6 +39,10 @@
 }
 .team {
     padding: 30px 0;
+}
+.team-content {
+    max-width: 230px;
+    padding: 10px 0px 0 44px;
 }
 .about-header p {
     font-size: 25px;

@@ -189,7 +189,7 @@
     background: #cac0bf;
 }
 .team-content{
-    max-width: 209px;
+    max-width: 210px;
      padding: 10px 15px;
 }
 .team-content p{
@@ -304,8 +304,8 @@
     transition:all .5s ease;
 }
 .portfolio-menu ul li:hover{
- color: #eb1768;
- border-bottom:  2px solid #eb1768;
+ color: #999;
+ border-bottom:  2px solid #999;
  border-radius: 0px;
 }
 
@@ -319,15 +319,8 @@
     margin-bottom:10px;
 }
 .btn-view{
-    padding: 12px 25px;
-    color: #eb1768;
-    background: rgba(101, 0, 216,0.1);
-    margin-left: 63rem;
-    font-weight: 600;
-    transition: 0.5s;
-}
-.btn-view:hover{
-    border:  2px solid #eb1768;
+    border: 1px solid #999;
+    padding: 10px 15px;
 }
 /* contact form */
 .contact{
@@ -345,15 +338,15 @@
     background-clip: padding-box;
     border: none;
     border-bottom: 2px solid #e5e5e5;
-    color: #e74e3e;
+    color: #333;
     border-radius: 0;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .form-control-custom:focus {
-    color: #e74e3e;
+    color: #333;
     font-weight: 700;
     background-color: #fff;
-    border-color: #e74e3e;
+    border-color: #333;
     outline: 0;
     box-shadow: none !important;
 }
@@ -599,6 +592,11 @@ a.socialIcon:hover, .socialHoverClass {
   border-radius:50%; 
   text-align: center;
 }
+/* for mobile */
+.main1{
+    border: 1px solid #999;
+    padding: 5px 15px;
+}
 .main h3{
     margin-top: 35%;
     text-align: center;
@@ -629,3 +627,55 @@ a.socialIcon:hover, .socialHoverClass {
   }
 }
 
+/* pagination */
+
+.list-item {
+	border: 1px solid #EEE;
+	background: #FFF;
+	margin-bottom: 10px;
+	padding: 10px;
+	box-shadow: 0px 0px 10px 0px #EEE;
+}
+
+.list-item h4 {
+	color: #FF7182;
+	font-size: 18px;
+	margin: 0 0 5px;	
+}
+
+.list-item p {
+	margin: 0;
+}
+
+.simple-pagination ul {
+	margin: 0 0 20px;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.simple-pagination li {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.simple-pagination li a,
+.simple-pagination li span {
+	color: #666;
+	padding: 5px 10px;
+	text-decoration: none;
+	border: 1px solid #EEE;
+	background-color: #FFF;
+	box-shadow: 0px 0px 10px 0px #EEE;
+}
+
+.simple-pagination .current {
+	color: #FFF;
+	background-color: #FF7182;
+	border-color: #FF7182;
+}
+
+.simple-pagination .prev.current,
+.simple-pagination .next.current {
+	background: #e04e60;
+}
