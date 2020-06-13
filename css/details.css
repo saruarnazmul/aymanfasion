@@ -2,3 +2,18 @@
     width: 450px;
     height: auto;
 }
+
+.breadcrumb{
+    font-size:1em;
+    color: #222222 !important;
+  }
+  .breadcrumb li a{
+    font-size:1em;
+    color: #222222 !important;
+    font-weight: 600;
+    transition: 0.4s;
+  }
+  .breadcrumb li a:hover{
+    text-decoration: none;
+    cursor: help;
+  }
